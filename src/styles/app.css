@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gotham Pro;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 90px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.wrapper {
+    padding-bottom: 3rem;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    /* border-bottom: 1px solid #f1f1f1; */
+    z-index: 1020;
+}
+
+.logo {
+    display: block;
+    z-index: 100;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.navbar {
+    width: 1740px;
+    margin: 0 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.25rem;
+   
+    
+
+    /* position: fixed; */
+    top: 0;
+    text-transform: uppercase;
+}
+
+.nav-menu .navbar__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: #575757;
+    text-decoration: none;
+    padding: 0.5rem 1.25rem;
+}
+
+.index__title {
+    position: relative;
+    width: 1095px;
+    height: 570px;
+    right: 126px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index__title h1 {
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100px;
+}
+
+.index__title button {
+    background: #181ACF;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid #181ACF;
+    height: 2.875rem;
+    max-height: 2.875rem;
+    margin: 0.25rem 0.125rem;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+}
+
+.section {
+    display: block;
+    margin: 100px;
+}
+
+
+.contact-us-blocks {
+    display: flex;
+}
+
+.contact-us__item {
+    /* position: absolute; */
+    width: 740px;
+    left: 987px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.contact-us__item h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* color: #000000; */
+}
+
+.contact-us__item:hover {
+    background: #181ACF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contact-us h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 60px;
+    /* or 109% */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact-us__content {
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.our-works__title {
+    position: relative;
+    width: 1920px;
+    height: 105px;
+    left: -108px;
+
+    background: #181ACF;
+    z-index: 1020;
+}
+
+.our-works__title h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    /* line-height: 53px; */
+   
+    padding: 25px 0px 0 0px;
+    margin-left: 90px;
+    align-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* I STOPPED THERE */
