@@ -109,6 +109,29 @@ header {
     text-transform: uppercase;
 }
 
+.btn-comp {
+    margin:auto;
+    display:block;
+
+    padding-right: 90px;
+    padding-left: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    height: 2.875rem;
+    max-height: 2.875rem;
+    text-transform: uppercase;
+}
+
 .section {
     display: block;
     margin: 100px;
@@ -173,7 +196,7 @@ header {
     left: -108px;
 
     background: #181ACF;
-    z-index: 1020;
+    z-index: 520;
 }
 
 .our-works__title h1 {
@@ -188,6 +211,205 @@ header {
     align-content: center;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.our-works {
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 126px
+
+    
+}
+
+.our-works__item {
+    border-top: 2px solid #000000;
+    /* border-bottom: 2px solid #000000; */
+    padding-top: 70px;
+    margin: 30px;
+}
+
+.our-works__item h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.our-works__item h1:hover {
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.tags {
+    margin-left: 0;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #181ACF;
+    
+}
+
+.tags li {
+    margin-right: 30px;
+}
+
+.advantages {
+    margin-top: 126px;
+    margin-bottom: 126px;
+}
+
+.advantages h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 115px;
+/* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.advantages__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.advantages__content {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding-top: 30px;
+}
+
+.advantages__content__item__desc {
+    /* border-top: 1px solid #000000; */
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
+    margin-left: 230px;
+    
+}
+
+.advantages__content__item__desc p {
+    /* border-top: 1px solid #000000; */
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
+    margin: 0;
+    
+}
+
+.advantages__content__item img {
+    margin-left: 600px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+
+.advantages__content__item {
+    
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.advantages__content__item--reverse {
+    padding-top: 30px;
+    border-top: 1px solid #000000;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row-reverse;
+}
+
+.advantages__content__item--reverse img {
+    margin-right: 600px;
+    margin-top: 150px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.advantages__content__item__desc--reverse {
+    margin-right: 230px;
+}
+
+.advantages__content__item__desc--reverse h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 69px;
+    text-transform: uppercase;
+
+    color: #2E2E34;
+}
+
+.advantages__wrapper {
+    /* margin: 100px; */
+    align-items: center;
+}
+
+.advantages__content__item__desc h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 69px;
+    text-transform: uppercase;
+
+    color: #2E2E34;
+}
+
+.advantages-img {
+    position: absolute;
+    top: 4838px;
+    width: 134.4px;
+    height: 1276.76px;
+    left: 887px;
+}
+
+.feedback-link {
+    margin-bottom: 100px;
+}
+
+.feedback-img {
+    margin-bottom: 30px;
+}
+
+.layer {
+    /* position: absolute;
+    width: 1740px;
+    height: 261px;
+    left: 90px; */
+    padding: 20px;
+    overflow-x: scroll;
+    width: 1740px;
+    height: 261px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.layer h1 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+
+    
+    color: #000000;
 }
 
 /* I STOPPED THERE */
