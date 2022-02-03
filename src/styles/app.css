@@ -22,24 +22,8 @@ body {
     padding-bottom: 3rem;
 }
 
-header {
-    background-color: white;
-    position: fixed;
-    /* border-bottom: 1px solid #f1f1f1; */
-    z-index: 1020;
-}
 
-.logo {
-    display: block;
-    z-index: 100;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 23px;
-    margin-bottom: 0;
-}
-
-.navbar {
+/* .navbar {
     width: 1740px;
     margin: 0 90px;
     display: flex;
@@ -50,20 +34,10 @@ header {
    
     
 
-    /* position: fixed; */
+  
     top: 0;
     text-transform: uppercase;
-}
-
-.nav-menu .navbar__item {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 14px;
-    color: #575757;
-    text-decoration: none;
-    padding: 0.5rem 1.25rem;
-}
+} */
 
 .index__title {
     position: relative;

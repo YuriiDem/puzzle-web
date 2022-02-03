@@ -89,7 +89,7 @@ export default () => {
                     </div>
                 </div>
                 <div className="footer_puzzle_copyright">
-                    <p>©2021 PuzzleGroup. Все правва защищены.</p>
+                    <p>©{new Date().getFullYear()} PuzzleGroup. Все права защищены.</p>
                     <p><a href="#">Правила пользования</a></p>
                     <p><a href="#">Политика конфиденциальности</a></p>
                 </div>
