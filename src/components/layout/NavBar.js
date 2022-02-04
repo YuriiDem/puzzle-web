@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import './NavBar.css'
 import MenuBtn from '../../images/menu-btn.svg'
 import NavMenu from "./NavMenu/NavMenu"
-// import MenuCloseBtn from '../../../images/menu-close-btn.svg'
 import MenuCloseBtn from '../../images/menu-close-btn.svg'
 // import tg from "../Footer/img/tg.svg"
 // import fb from "../Footer/img/fb.svg"

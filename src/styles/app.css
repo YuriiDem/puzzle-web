@@ -13,7 +13,7 @@ body {
 
 .container {
     max-width: 1920px;
-    margin: 0 90px;
+    margin: 0 auto;
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
