@@ -12,7 +12,43 @@ import MenuCloseBtn from '../../images/menu-close-btn.svg'
 
 
 const NavBar = () => {
-    const [menuActive, setMenuActive] = useState(false)
+    // const [menuActive, setMenuActive] = useState(false);
+
+    const [state, setState] = useState({
+        initial: false,
+        clicked: null,
+        menuName: "Menu"
+    });
+
+    const [disabled, setDisabled] = useState(false);
+
+    const handleClick = () => {
+        disableMenu();
+        if (state.initial === false) {
+            setState({
+                initial: null,
+                clicked: true,
+                menuName: "Close"
+            });
+        } else if (state.clicked === true) {
+            setState({
+                clicked: !state.clicked,
+                menuName: "Menu"
+            });
+        } else if (state.clicked === false) {
+            setState({
+                clicked: !state.clicked,
+                menuName: "Close"
+            });
+        }
+    };
+
+    const disableMenu = () => {
+        setDisabled(!disabled);
+        setTimeout(() => {
+            setDisabled(false);
+        }, 1200);
+    };
 
     return (
         <>
@@ -45,14 +81,14 @@ const NavBar = () => {
                         Контакты
                     </Link>
                     <div className="btn__menu">
-                        <button type="button" onClick={() => setMenuActive(true)}>
+                        <button type="button" disabled={disabled} onClick={handleClick}>
                             <img src={MenuBtn} />
                         </button>
                     </div>
                 </nav>
             </header>
 
-            <NavMenu active={menuActive}>
+            <NavMenu state={state} >
                 <div className="nav-menu__header">
                     <div className="logo">
                         <div className="navbar__item">
@@ -62,8 +98,8 @@ const NavBar = () => {
 
                     <div className="nav-menu__menu-close">
                         <div className="btn__menu">
-                            <button type="button" onClick={() => setMenuActive(false)}>
-                                <img src={MenuCloseBtn} />
+                            <button type="button">
+                                <img src={MenuCloseBtn} onClick={handleClick}/>
                             </button>
                         </div>
                     </div>
