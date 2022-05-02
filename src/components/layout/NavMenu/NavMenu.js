@@ -8,7 +8,7 @@ import './NavMenu.css'
 
 
 const NavMenu = ({ state, children }) => {
-    // let menu = useRef(null);
+    let menu = useRef(null);
 
     useEffect(() => {
         if (state.clicked === false) {
