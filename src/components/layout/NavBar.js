@@ -5,6 +5,7 @@ import './NavBar.css'
 import MenuBtn from '../../images/menu-btn.svg'
 import NavMenu from "./NavMenu/NavMenu"
 import MenuCloseBtn from '../../images/menu-close-btn.svg'
+import styled from 'styled-components';
 // import tg from "../Footer/img/tg.svg"
 // import fb from "../Footer/img/fb.svg"
 // import inst from "../Footer/img/inst.svg"

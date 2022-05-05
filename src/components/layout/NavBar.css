@@ -92,4 +92,8 @@
     .links__item {
         display: none;
     }
+    .header {
+        padding: 0rem 1rem;
+    }
+
 }
