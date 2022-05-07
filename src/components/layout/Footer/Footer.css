@@ -204,3 +204,29 @@ a {
     }
 }
 
+@media only screen and (max-width: 390px) {
+    .footer {
+        max-width: 390px;
+    }
+
+    .footer_down_right img {
+        padding: 64px 24px;
+        width: 100%;
+    }
+
+    .footer_up_left__company__name {
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+
+    .footer_up_left__company-button > p:nth-child(1) {
+        padding: 21px;
+        max-width: 100%;
+    }
+
+    .footer_up {
+        margin: 0 25px;
+    }
+}
+
